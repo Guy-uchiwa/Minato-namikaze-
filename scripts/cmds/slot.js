@@ -72,7 +72,7 @@ module.exports = {
       } else {
         const lostAmount = Reply.amount;
         await usersData.set(senderID, { money: userData.money - lostAmount });
-        await message.reply('🥺𝙏𝙤𝙪𝙩𝙚𝙨 𝙢𝙚𝙨 𝘾𝙤𝙣𝙙𝙤𝙡é𝙖𝙣𝙘𝙚𝙨 𝙫𝙤𝙪𝙨 𝙖𝙫𝙚𝙯 𝙥𝙚𝙧𝙙𝙪🤧'.${lostAmount}.`);
+        await message.reply('🥺𝙏𝙤𝙪𝙩𝙚𝙨 𝙢𝙚𝙨 𝘾𝙤𝙣𝙙𝙤𝙡é𝙖𝙣𝙘𝙚𝙨 𝙫𝙤𝙪𝙨 𝙖𝙫𝙚𝙯 𝙥𝙚𝙧𝙙𝙪🤧.${lostAmount}.`);
       }
 
       const emojis = ['🖤', '🖤', '💝'];
