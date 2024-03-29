@@ -45,7 +45,7 @@ module.exports = {
       });
 
     } catch (error) {
-      console.error("🙊𝐋𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 𝐒𝐥𝐨𝐭:", 𝐄𝐫𝐫𝐞𝐮𝐫😿);
+      console.error("🙊𝐋𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 𝐒𝐥𝐨𝐭:,𝐄𝐫𝐫𝐞𝐮𝐫😿");
       message.reply("😿𝐔𝐧𝐞 𝐞𝐫𝐫𝐞𝐮𝐫 𝐬'𝐞𝐬𝐭 𝐩𝐫𝐨𝐝𝐮𝐢𝐭𝐞");
     }
   },
