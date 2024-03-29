@@ -45,7 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "⚪𝗡𝗼𝗺 𝗱𝘂 𝗯𝗼𝘁 💙 向ᕼIᑎᗩTᗩ 規🤍  ♛𝘾𝙧𝙚𝙖𝙩𝙚𝙪𝙧〓 ᗰᗩᗪᗩᖇᗩ ▰▰▰▰▰▰▰▰▰▰ ༆𝘾𝗹𝗮𝗻〓 𝘩𝘺𝘶𝘨𝘢🎎  ▰▰▰▰▰▰▰▰▰▰  ⚙𝗦𝘆𝗺𝗯𝗼𝗹𝗲 𝗱𝗲 𝗺𝗼𝗻 𝗰𝗹𝗮𝗻〓: %1\n▰▰▰▰▰▰▰▰▰▰  🔵𝗠𝗮 𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗺𝗼𝗻𝗱𝗲 𝗻𝗶𝗻𝗷𝗮〓 𝑃𝑜𝑡𝑒𝑔𝑒𝑟 𝑁𝑎𝑟𝑢𝑡𝑜 𝑈𝑧𝑢𝑚𝑎𝑘𝑖♡  ▰▰▰▰▰▰▰▰▰▰      ☬ 🏤𝗤𝘂𝗮𝗹𝗶𝘁𝗲́ 𝗱𝗲 𝘃𝗶𝗲〓 𝘈𝘮𝘰𝘶𝘳𝘦𝘶𝘴𝘦 ☺️: %2"
+			myPrefix: "⚪𝗡𝗼𝗺 𝗱𝘂 𝗯𝗼𝘁:  💙 向ᕼIᑎᗩTᗩ 規🤍   ♛𝘾𝙧𝙚𝙖𝙩𝙚𝙪𝙧〓 ᗰᗩᗪᗩᖇᗩ ▰▰▰▰▰▰▰▰▰▰ ༆𝘾𝗹𝗮𝗻〓 𝘩𝘺𝘶𝘨𝘢🎎  ▰▰▰▰▰▰▰▰▰▰  ⚙𝗦𝘆𝗺𝗯𝗼𝗹𝗲 𝗱𝗲 𝗺𝗼𝗻 𝗰𝗹𝗮𝗻〓: %1\n▰▰▰▰▰▰▰▰▰▰  🔵𝗠𝗮 𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗺𝗼𝗻𝗱𝗲 𝗻𝗶𝗻𝗷𝗮〓 𝑃𝑜𝑡𝑒𝑔𝑒𝑟 𝑁𝑎𝑟𝑢𝑡𝑜 𝑈𝑧𝑢𝑚𝑎𝑘𝑖♡  ▰▰▰▰▰▰▰▰▰▰      ☬ 🏤𝗤𝘂𝗮𝗹𝗶𝘁𝗲́ 𝗱𝗲 𝘃𝗶𝗲〓 𝘈𝘮𝘰𝘶𝘳𝘦𝘶𝘴𝘦 ☺️: %2"
 		}
 	},
 
