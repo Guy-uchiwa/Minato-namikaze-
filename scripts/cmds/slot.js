@@ -45,7 +45,7 @@ module.exports = {
       });
 
     } catch (error) {
-      console.error("🙊𝐋𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 𝐒𝐥𝐨𝐭:,𝐄𝐫𝐫𝐞𝐮𝐫😿");
+      console.error("🙊𝐋𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 𝐒𝐥𝐨𝐭:", 𝐄𝐫𝐫𝐞𝐮𝐫😿);
       message.reply("😿𝐔𝐧𝐞 𝐞𝐫𝐫𝐞𝐮𝐫 𝐬'𝐞𝐬𝐭 𝐩𝐫𝐨𝐝𝐮𝐢𝐭𝐞");
     }
   },
@@ -68,11 +68,11 @@ module.exports = {
       if (chosenPosition === gemPosition) {
         const winnings = Reply.amount * 2;
         await usersData.set(senderID, { money: userData.money + winnings }); 
-        await message.reply(`🎊𝙔𝙤𝙪𝙥𝙞𝙧𝙚🎉 𝙫𝙤𝙪𝙨 𝙖𝙫𝙚𝙯 𝙙é𝙘𝙖𝙞𝙨𝙨é📦🏷️ 𝙪𝙣𝙚 𝙨𝙤𝙢𝙢𝙚 𝙙𝙚 ${winnings} ᗴᖇᖇO💵💴💶💷 .`);
+        await message.reply(`🎊𝙔𝙤𝙪𝙥𝙞𝙧𝙚🎉 𝙫𝙤𝙪𝙨 𝙖𝙫𝙚𝙯 𝙙é𝙘𝙖𝙞𝙨𝙨é📦🏷️ 𝙪𝙣𝙚 𝙨𝙤𝙢𝙢𝙚 𝙙𝙚 ${winnings} ᗴᖇᖇO💵💴💶💷);
       } else {
         const lostAmount = Reply.amount;
         await usersData.set(senderID, { money: userData.money - lostAmount });
-        await message.reply('🥺𝙏𝙤𝙪𝙩𝙚𝙨 𝙢𝙚𝙨 𝘾𝙤𝙣𝙙𝙤𝙡é𝙖𝙣𝙘𝙚𝙨 𝙫𝙤𝙪𝙨 𝙖𝙫𝙚𝙯 𝙥𝙚𝙧𝙙𝙪🤧.${lostAmount}.`);
+        await message.reply(🥺𝙏𝙤𝙪𝙩𝙚𝙨 𝙢𝙚𝙨 𝘾𝙤𝙣𝙙𝙤𝙡é𝙖𝙣𝙘𝙚𝙨 𝙫𝙤𝙪𝙨 𝙖𝙫𝙚𝙯 𝙥𝙚𝙧𝙙𝙪🤧.${lostAmount}.`);
       }
 
       const emojis = ['🖤', '🖤', '💝'];
