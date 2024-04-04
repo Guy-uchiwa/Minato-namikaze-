@@ -28,7 +28,7 @@ module.exports = {
 			restartting: "🔄 | Đang khởi động lại bot..."
 		},
 		en: {
-			restartting: "🔌| ᖇᗴᗪᗴᗰᗩᖇᗩᘜᗴ ᗪᑌ ᗷOT ⚪🔵🔴 "
+			restartting: "╔╦══• •✠•❀•✠ • •══╦╗   🔌❚ 𝙍𝙚𝙙𝙚𝙢𝙖𝙧𝙖𝙜𝙚 𝙙𝙪 𝙗𝙤𝙩     ■■■□□ 60% ⚪🔵🔴 ╚╩══• •✠•❀•✠ • •══╩╝ "
 		}
 	},
 
@@ -36,7 +36,7 @@ module.exports = {
 		const pathFile = `${__dirname}/tmp/restart.txt`;
 		if (fs.existsSync(pathFile)) {
 			const [tid, time] = fs.readFileSync(pathFile, "utf-8").split(" ");
-			api.sendMessage(`✅ |ᖇᗴᗪᗴᗰᗩᖇᗩᘜᗴ TᗴᖇᗰIᑎᗴ\n⏰ | TᗴᗰᑭՏ: ${(Date.now() - time) / 1000}s`, tid);
+			api.sendMessage(`●▬▬▬▬๑۩۩๑▬▬▬▬● 𝄞 ❚ 𝙍𝙚𝙙𝙚𝙢𝙖𝙧𝙖𝙜𝙚 𝙩𝙚𝙧𝙢𝙞𝙣é ■■■■■ 100%\n𓃵 ❚ 𝙏𝙚𝙢𝙥𝙨: ${(Date.now() - time) / 1000}s`, tid);
 			fs.unlinkSync(pathFile);
 		}
 	},
