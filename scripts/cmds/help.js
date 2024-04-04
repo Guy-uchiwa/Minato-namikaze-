@@ -9,7 +9,7 @@ module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "NTKhang", // original author leeza 
+    author: "Enock", // original author leeza 
     countDown: 0,
     role: 0,
     shortDescription: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═══════════╗\n〖ホ〗ᕼIᑎᗩTᗩ〖ホ〗\n╚═══════════╝`; // replace with your name 
+      msg += `╔╦══• •✠•❀•✠ • •══╦╗\n〖📀〗ᕼIᑎᗩTᗩ〖📀〗\n╚╩══• •✠•❀•✠ • •══╩╝`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -46,23 +46,23 @@ module.exports = {
 
       Object.keys(categories).forEach((category) => {
         if (category !== "info") {
-          msg += `\n╭───────────\n│ 『  ${category.toUpperCase()}  』`;
+          msg += `\n╔═══════════════╗\n║ 〖  ${category.toUpperCase()}  〗`;
 
 
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
-            const cmds = names.slice(i, i + 3).map((item) => `༄${item}✨`);
-            msg += `\n│ ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
+            const cmds = names.slice(i, i + 3).map((item) => ` 🧸${item}❦`);
+            msg += `\n║ ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
           }
 
-          msg += `\n╰────────────`;
+          msg += `\n╚═══════════════╝`;
         }
       });
 
       const totalCommands = commands.size;
-      msg += `\n𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁💌 𝗵𝗮𝘀 ${totalCommands} 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱\n`;
-      msg += `𝗧𝘆𝗽𝗲 ${prefix} 𝗵𝗲𝗹𝗽 𝗰𝗺𝗱𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱💝\n`;
-      msg += `🐐 | GoatBot V2`; // its not decoy so change it if you want 
+      msg += `\n●▬▬▬▬๑۩۩๑▬▬▬▬● 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁𓁉 𝗵𝗮𝘀 ■■□□□ ${totalCommands} % 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱\n`;
+      msg += `𝗧𝘆𝗽𝗲 ${prefix} 𝗵𝗲𝗹𝗽 𝗰𝗺𝗱𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱࿐ཽ༵ ●▬▬▬๑۩۩๑▬▬▬▬▬●\n`;
+      msg += `𓀦 | 𝞔𝑵૦𐊢𝗞 V2`; // its not decoy so change it if you want 
 
       const helpListImages = [
         "https://i.ibb.co/JsjhQwq/image.jpg", // add image link here
@@ -129,4 +129,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-							}
+	}
