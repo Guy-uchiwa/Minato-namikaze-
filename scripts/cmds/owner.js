@@ -27,11 +27,11 @@ module.exports = {
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '👑𝕊𝕖𝕚𝕘𝕟𝕖𝕦𝕣 𝕄𝕒𝕕𝕒𝕣𝕒 𝕌𝕔𝕙𝕚𝕨𝕒 𝕕𝕖𝕝 𝔼𝕟𝕠𝕔𝕜👑🎴',
+          name: '👑GUY BOMISSO 👑🎴',
           gender: '𝔹𝕠𝕪 👨‍🦱',
           hobby: '❝🏄‍♂️ℍ𝕠𝕝𝕚𝕕𝕒𝕪 🏄‍♂️❞ 👩‍💻𝔾𝕖𝕤𝕥𝕚𝕠𝕟 𝕕𝕖 𝕊𝕥𝕠𝕔𝕜👨‍💻 🇬🇧',
           relationship: 'ℂ𝕖𝕝𝕚𝕓𝕒𝕥𝕒𝕚𝕣𝕖 💔😑',
-          facebookLink: 'https://www.facebook.com/profile.php?id=100089690164634',
+          facebookLink: 'https://www.facebook.com/profile.php?id=100085016705481',
           bio: '󰟣󰟤󰟥󰟥󰟦󰟧󰟨󰟩󰟪󰟫­󰟬󰟭󰟭󰟮󰟯󰟰󰟱󰟱󰟲󰟳󰟴󰟵󰟵󰟶󰟷󰟸󰟹󰟺󰟺󰟻­󰟼󰟽󰟾󰥰󰥱󰟣󰟤󰟥'
         };
 
