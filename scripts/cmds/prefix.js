@@ -45,9 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "⚪ᗷOT ᑭᖇᗴᖴI᙭ %1\n●▬▬▬๑۩۩๑▬▬▬▬▬●   ♛𝘾𝙧𝙚𝙖𝙩𝙚𝙪𝙧〓 ᗰᗩᗪᗩᖇᗩ  https://www.facebook.com/profile.php?id=100089690164634   ●▬▬▬๑۩۩๑▬▬▬▬▬● ༆𝘾𝗹𝗮𝗻〓 𝘩𝘺𝘶𝘨𝘢🎎  ●▬▬▬๑۩۩๑▬▬▬▬▬● 🔵𝗠𝗮 𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗱𝗮𝗻𝘀 𝗹𝗲 𝗺𝗼𝗻𝗱𝗲 𝗻𝗶𝗻𝗷𝗮〓 𝑃𝑟𝑜𝑡𝑒𝑔𝑒𝑟 𝑁𝑎𝑟𝑢𝑡𝑜 𝑈𝑧𝑢𝑚𝑎𝑘𝑖♡  ⦿▰▰▰▰▰▰▰▰▰▰⦿      ☬ 🏤𝗤𝘂𝗮𝗹𝗶𝘁𝗲́ 𝗱𝗲 𝘃𝗶𝗲〓 𝘈𝘮𝘰𝘶𝘳𝘦𝘶𝘴𝘦 ☺: %2"
-		}
-	},
+			myPrefix: "⚪ᗷOT ᑭᖇᗴᖴI᙭ %1\n●▬▬▬๑۩۩๑▬▬▬▬▬●   ♛𝘾𝙧𝙚𝙖𝙩𝙚𝙪𝙧〓 Guy bomisso  https://www.facebook.com/profile.php?id=100085016705481   ●▬▬▬๑۩۩๑▬▬▬▬▬● ༆𝘾𝗹𝗮𝗻〓 Uchiwa🎎  ●▬▬▬๑۩۩๑▬▬▬▬▬● 🔵",
 
 	onStart: async function ({ message, role, args, commandName, event, threadsData, getLang }) {
 		if (!args[0])
