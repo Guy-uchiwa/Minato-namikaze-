@@ -95,7 +95,7 @@ handlerEvents.onlyAdminBox=This group is currently enabled only group administra
 handlerEvents.onlyAdminBot=❌ | Currently only bot's admin can use bot \n______________ \n💦 SASUKE 
 handlerEvents.commandNotFound=🕊️𝚌𝚎𝚝𝚝𝚎 𝚌𝚖𝚍 𝚗'𝚎𝚡𝚒𝚜𝚝𝚎 𝚙𝚊𝚜 𝚌𝚘𝚗𝚜𝚞𝚕𝚝𝚎 =help
 handlerEvents.commandNotFound2=🕊️𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝚄 𝙱𝙾𝚃🕊️ \n━━━━━━━━━━ \n🕊️𝙲𝚁𝙴𝙰𝚃𝙴𝚄𝚁 :ཋྀɞ𝗛𝗔𝗜𝗧𝗔𝗡𝗜ɞ く命 \n🕊️𝙻𝙸𝙴𝙽 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 : https://www.facebook.com/profile.php?id=100085016705481 \n┉┉┉┉┉┉┉┉┉┉┉┉ ☄༐⸙...GUY BOMISSO..༐⸙..❍🪽
-handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type 1help %2 to see the details of how to use this command
+handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
 handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n______________ \n🕊️𝙷𝙰𝙸𝚃𝙰𝙽𝙸く命ཋྀ༅ 
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1" 💀 SASUKE ✨👻
 handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1" \n☄⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋┉ ⸙..❤️‍🔥.. SASUKE ༐⸙🪽
